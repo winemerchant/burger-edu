@@ -52,7 +52,7 @@ p {
     color:#DEDEDE;
     margin-bottom: 40px;
 }
-a {
+.main a, .promo a {
     color:#1E2F40;
     background: #FBB731;
     border-radius: 5px;
@@ -73,10 +73,101 @@ a {
     width: 432px;
     height: 100%;
     background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
-
 }
-img {
+.main img {
     width: 829px;
     position: absolute;
     right:-168px;
+}
+.promo {
+    padding-top: 186px;
+    padding-bottom: 186px;
+}
+.promo-left, .promo-right {
+    flex: 0 0 49%;
+    color: #DEDEDE;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 580px;
+    max-height: 395px;
+    background-position-x: center;
+}
+.promo-left {
+    background-image: url(../img/img.png);
+    padding: 116px 50px;
+}
+.promo-right {
+    background-image: url(../img/img1.png);
+    padding: 102px 50px;
+}
+.promo-left .discription {
+    max-width: 392px;
+}
+.promo-right .discription {
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+.sale{
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 0px;
+    padding: 5px 19px;
+    text-transform: uppercase;
+    background: #F37335;
+    display: inline-block;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    height: 28px;
+}
+.cost {
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.discription {
+    color: #FAF9F9;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+.free {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+    margin-bottom: 10px;
+}
+.footer {
+    background: #1E2F40;
+}
+.item, .tel {
+    flex: 0 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.logo {
+    width: 63px;
+    height: 56px;
+}
+.item h2 {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #DEDEDE;
+}
+.item ul, .tel ul {
+    list-style-type: none;
+}
+.item ul {
+    color: #DEDEDE;
+}
+.tel ul {
+    color:#FBB731;
+}
+.item li, .item a {
+    margin-bottom: 9px;
+    color: #DEDEDE;
+    text-decoration: none;
 }
